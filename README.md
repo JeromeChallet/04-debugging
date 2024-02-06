@@ -1,4 +1,5 @@
-"Number" function convert to a string to a Number
+"Number" function convert to a string to a Number;
 console.table();
-convert temperaturs
-calculate amplitude
+convert temperaturs;
+calculate amplitude;
+debugger;

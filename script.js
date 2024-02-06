@@ -41,7 +41,10 @@ const calcTempAmplitudeNew = function (t1, t2) {
 
 	let max = temps[0];
 	let min = temps[0];
-
+	// this a js statement calls the debugger in the browser
+	//it will automtically open up the debugger tool
+	//kinda like a break point
+	debugger;
 	for (let i = 0; i < temps.length; i++) {
 		const curTemp = temps[i];
 		if (typeof curTemp !== "number") continue;
