@@ -3,3 +3,4 @@ console.table();
 convert temperaturs;
 calculate amplitude;
 debugger;
+arr.indexOf(arr[i]);

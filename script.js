@@ -1,4 +1,5 @@
 //convert temps
+/*
 const measureKelvin = function () {
 	const measurement = {
 		type: "temp",
@@ -59,3 +60,15 @@ const calcTempAmplitudeNew = function (t1, t2) {
 const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
 
 console.log(amplitudeNew);
+*/
+
+const testData1 = [17, 21, 23];
+const testData2 = [12, 5, -5, 0, 4];
+
+function printForecast(arr) {
+	for (let i = 0; i < arr.length; i++)
+		console.log(`${arr[i]}C in ${arr.indexOf(arr[i]) + 1} days...`);
+}
+
+printForecast(testData1);
+printForecast(testData2);
